@@ -8,7 +8,7 @@ const Stack = createNativeStackNavigator();
 
 const Feature3Home = ({ navigation }) => (
 	<View style={styles.container}>
-		<Text> Feature 3 - navigates between modules / uses a nested navigator to move between screens within the the module. </Text>
+		<Text> Feature 3 - navigates between modules / uses a nested navigator to move between screens within the module. </Text>
 		<Button title="Feature 1" onPress={() => navigation.navigate("Feature1")} />
 		<Button title="Feature 2" onPress={() => navigation.navigate("Feature2")} />
 	</View>
