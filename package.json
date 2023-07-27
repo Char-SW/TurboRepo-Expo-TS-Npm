@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --concurrency 15",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -13,7 +13,7 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "name": "customTR",
+  "name": "customtrnpm",
   "packageManager": "npm@9.5.1",
   "workspaces": [
     "apps/*",

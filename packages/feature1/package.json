@@ -1,0 +1,8 @@
+{
+	"name": "feature1",
+	"version": "1.0.0",
+	"dependencies": {
+		"react-native": "0.72.3",
+		"expo-image": "~1.3.2"
+	}
+}
